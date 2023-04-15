@@ -14,5 +14,5 @@ Here are 2 ways that I can remember off the top of my head. I recommend the firs
 - **[`$replaceText` method](..)** (Recommended)
 - **[`$repeatMessage` method](..)**
 
-# $onMessageDelete Loop
-Soon:tm:
+# Running a code all the time.
+Will write this section soon.
