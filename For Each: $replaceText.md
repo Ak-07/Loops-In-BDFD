@@ -1,4 +1,4 @@
-> Before you can use any type of loops, you need to learn [how to escape code](..).
+> Before you can use any type of loops, you need to learn [how to escape code](../main/Escaping.md).
 
 You should memorize this code.
 ```js
