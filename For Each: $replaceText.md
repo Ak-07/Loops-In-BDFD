@@ -78,7 +78,7 @@ $eval[$splitText[1]$replaceText[$var[list]; ;$splitText[2]$var[n]$splitText[1]]$
 ```
 Output:
 ```js
-User#0000
-User#0000
-User#0000
+User#0001
+User#0002
+User#0003
 ```
