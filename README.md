@@ -1,4 +1,4 @@
-> Before you can use any type of loops, you need to learn [how to escape code](..).
+> Before you can use any type of loops, you need to learn [how to escape code](../main/Escaping.md).
 
 # Running a code for each item in a list.
 Imagine a list of numbers (1, 2, 3, ..., 10), and your goal is to get rid of every item that is bigger than 3. This should be done with a “For Each Loop” because you do something to each item in the list (check if it’s bigger than 3).
