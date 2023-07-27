@@ -23,22 +23,22 @@ Meow - Meow - Meow
 
 #
 
-What the `<ELEMENT>` option means:
-If you replace `<ELEMENT>` with `Test`, then you can use the word `Test` in your escpaed code to “get” the current item of the list.
+What the `<ELEMENT>` option means: \
+If you replace `<ELEMENT>` with `Test`, then you can use the word `Test` in your escpaed code to “get” the current item of the list. So if `<ELEMENT>` is replaced with `Meow` then the code `%{DOL}%randomText[Meow\;UwU\]` will replace some items of the list with “UwU” without changing the other items.
 
 Example code:
 ```js
 $textSplit[<Test>;Test]
-$eval[$splitText[1]$replaceText[1, 2, 3;, ;$splitText[2] - $splitText[1]]$splitText[2]]
+$eval[$splitText[1]$replaceText[1 - 2 - 3; - ;$splitText[2]...$splitText[1]]$splitText[2]]
 ```
 Output:
 ```js
-<1> - <2> - <3>
+<1>...<2>...<3>
 ```
 
 #
 
-⚠️ You can’t use the `<ELEMENT>` keyword more than once in your escaped code.
+:warning: You can’t use `<ELEMENT>` more than once in your escaped code.
 
 Example code:
 ```js
@@ -56,7 +56,7 @@ Actual output:
 
 #
 
-You can fix this by making a variable for your current element:
+This can be fixed by storing the current item in a variable:
 ```js
 $textSplit[%{DOL}%var[c\;Element\]<%{DOL}%var[c\]/%{DOL}%var[c\]>;Element]
 $eval[$splitText[1]$replaceText[1, 2, 3;, ;$splitText[2] - $splitText[1]]$splitText[2]]
@@ -69,16 +69,16 @@ Output:
 # Actual usage example
 Here is a code for converting a list of IDs to a list of usernames:
 ```js
-$var[n;$url[decode;%0A]] $c[<== THIS IS A NEW LINE CHARACTER]
+$var[n;$url[decode;%0A]] $c[// %0A is a new-line character.]
+$var[list;00000000000000000 11111111111111111 22222222222222222]
 
-$var[list;1234567890123456789 2345678901234567890 3456789012345678901]
+$textSplit[%{DOL}%var[c\;?\]%{DOL}%var[d\;%{DOL}%discriminator[%{DOL}%var[c\]\]\]%{DOL}%replaceText[%{DOL}%if[%{DOL}%var[d\]==0\]@.%{DOL}%else.#%{DOL}%var[d\]%{DOL}%endif\;.\;%{DOL}%username[%{DOL}%var[c\]\]\];?]
 
-$textSplit[%{DOL}%var[c\;Element\]%{DOL}%try%{DOL}%username[%{DOL}%var[c\]\]#%{DOL}%discriminator[%{DOL}%var[c\]\]%{DOL}%endtry;Element]
 $eval[$splitText[1]$replaceText[$var[list]; ;$splitText[2]$var[n]$splitText[1]]$splitText[2]]
 ```
 Output:
 ```js
-User#0001
-User#0002
-User#0003
+@example
+Example#0000
+Example#1234
 ```
