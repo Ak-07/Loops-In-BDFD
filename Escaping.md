@@ -4,7 +4,7 @@ Imagine you want to send the word `$nomention` but BDFD doesn’t let you, becau
 The “escaped version” of `$nomention` is `%{DOL}%nomention`. So to send “$nomention” you do `$sendMessage[%{DOL}%nomention]`.
 
 `$` => `%{DOL}%` \
-`[` doesn’t need to get escaped. \
+`[` doesn’t need to be changed. \
 `;` => `\;` \
 `]` => `\]` \
 `\` => `\\`
