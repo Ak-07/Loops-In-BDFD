@@ -11,8 +11,8 @@ Here are 2 ways that I can remember off the top of my head. I recommend the firs
 Imagine you want to list all even numbers from X to Y. This should be done with this loop because you will be executing a code a specific amount of times.
 
 Here are 2 ways that I can remember off the top of my head. I recommend the first one, but you can also use the other.
-- **[`$repeatMessage` method](..)** (recommended)
-- **[Another method](..)**
+- **[`$repeatMessage` method](../main/Run%20X%20Times:%20%24repeatMessage.md)** (recommended)
+- **[another method](..)**
 
 # Running a code all the time.
 Will write this section soon.
