@@ -51,7 +51,7 @@ $sendMessage[$await[]]
 ```
 
 > Note: \
-> In the example above, `$await[]` return a new line character, 4 spaces, the escaped code, then another new line, but Discord automatically removes spaces at the start and end of messages, so in this `$sendMessage` example, there’s no need to use `$trimSpace`, but in other situations, you might need to use it.
+> In the example above, `$await[]` returns a new line character, 4 spaces, the escaped code, then another new line, but Discord automatically removes spaces at the start and end of messages, so in this `$sendMessage` example, there’s no need to use `$trimSpace`, but in other situations, you might need to use it.
 
 # Example of combining a few of the tricks above
 
