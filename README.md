@@ -5,7 +5,7 @@ Imagine a list of numbers (1, 2, 3, ..., 10), and your goal is to get rid of eve
 
 Here are 2 ways that I can remember off the top of my head. I recommend the first one, but you can also use the other.
 - **[`$replaceText` method](../main/For%20Each.md)** (Recommended)
-- **[`$joinSplitText` method](..)**
+- **[`$joinSplitText` method](../main/The%20Other%20Loop.md)**
 
 # Running a code a specific amount of times.
 Imagine you want to list all even numbers from X to Y. This should be done with this loop because you will be executing a code a specific amount of times.
