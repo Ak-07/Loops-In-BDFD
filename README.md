@@ -12,7 +12,7 @@ Imagine you want to list all even numbers from X to Y. This should be done with 
 
 Here are 2 ways that I can remember off the top of my head. I recommend the first one, but you can also use the other.
 - **[`$repeatMessage` method](../main/Run%20X%20Times:%20%24repeatMessage.md)** (recommended)
-- **[another method](..)**
+- **[Another method](../main/Run%20X%20Times%3A%20Other%20method.md)**
 
 # Running a code all the time.
 Will write this section soon.
