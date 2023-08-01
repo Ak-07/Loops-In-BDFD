@@ -15,4 +15,6 @@ Here are 2 ways that I can remember off the top of my head. I recommend the firs
 - **[Another method](../main/Run%20X%20Times%3A%20Other%20method.md)**
 
 # Running a code all the time.
-Will write this section soon.
+An example use case of it would be a reminder command. \
+This loop executes a specified code every specified duration. \
+[Click here to learn more.](../main/Run%20Every%20X%20Duration.md)
