@@ -24,7 +24,7 @@ Meow - Meow - Meow
 #
 
 What the `<ELEMENT>` option means: \
-If you replace `<ELEMENT>` with `Test`, then you can use the word `Test` in your escpaed code to “get” the current item of the list. So if `<ELEMENT>` is replaced with `Meow` then the code `%{DOL}%randomText[Meow\;UwU\]` will replace some items of the list with “UwU” without changing the other items.
+If you replace `<ELEMENT>` with `Test`, then you can use the word `Test` in your escaped code to “get” the current item of the list. So if `<ELEMENT>` is replaced with `Meow` then the code `%{DOL}%randomText[Meow\;UwU\]` will replace some items of the list with “UwU” without changing the other items.
 
 Example code:
 ```js
