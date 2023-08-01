@@ -18,4 +18,4 @@ $eval[$repeatMessage[3;$repeatMessage[4;$await[]]]$await[]]
 ```
 This repeats the code 12 times, then adds the code to the end again to make it 13 times.
 
-For amounts larger than 50,000, I recommend you use [a more advanced method](../main/Run%20X%20Times%3A%20Other%20method.md).
+For amounts that are annoying to do with this method, I recommend you use [a more advanced method](../main/Run%20X%20Times%3A%20Other%20method.md).
