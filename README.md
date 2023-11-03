@@ -6,8 +6,8 @@ Imagine a list of numbers (1, 2, 3, ..., 10), and your goal is to get rid of eve
 Here are 5 example methods, the first two are more complicated, but they prevent the execution of user provided scripts:
 - **[`$replaceText` method](For%20Each%3A%20%24replaceText.md)**
 - **[`$joinSplitText` method](For%20Each%3A%20%24joinSplitText.md)**
-- **[`$replaceText` method (unsafe)](For%20Each%3A%20%24replaceTextUnsafe.md)**
-- **[`$joinSplitText` method (unsafe)](For%20Each%3A%20%24joinSplitTextUnsafe.md)**
+- **[`$replaceText` method (unsafe)](For%20Each%3A%20%24replaceText%20(unsafe).md)**
+- **[`$joinSplitText` method (unsafe)](For%20Each%3A%20%24joinSplitText%20(unsafe).md)**
 - **[`$repeatMessage` method](For%20Each%3A%20%24repeatMessage.md)** (Thank you [@Kurito](https://github.com/Kourito))
 
 # Running a code a specific amount of times.
