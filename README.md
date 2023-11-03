@@ -3,9 +3,11 @@
 # Running a code for each item in a list.
 Imagine a list of numbers (1, 2, 3, ..., 10), and your goal is to get rid of every item that is bigger than 3. This should be done with a “For Each Loop” because you do something to each item in the list (check if it’s bigger than 3). I recommend the first method, and that’s the one I always use, but you’re welcome to use any method you want.
 
-Here are 3 example methods:
+Here are 5 example methods, the first two are more complicated, but they prevent the execution of user provided scripts:
 - **[`$replaceText` method](For%20Each%3A%20%24replaceText.md)**
 - **[`$joinSplitText` method](For%20Each%3A%20%24joinSplitText.md)**
+- **[`$replaceText` method (unsafe)](For%20Each%3A%20%24replaceTextUnsafe.md)**
+- **[`$joinSplitText` method (unsafe)](For%20Each%3A%20%24joinSplitTextUnsafe.md)**
 - **[`$repeatMessage` method](For%20Each%3A%20%24repeatMessage.md)** (Thank you [@Kurito](https://github.com/Kourito))
 
 # Running a code a specific amount of times.
